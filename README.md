@@ -11,6 +11,6 @@ To use the Library API, you can make HTTP requests to the provided endpoints.
     <li><code>GET /customers/{id}</code> - Retrieves detailed information about a specific customer, identified by their ID.</li>
     <li><code>POST /customers</code> - Adds a new customer. Requires customer information in the request body.</li>
     <li><code>DELETE /customers/{id}</code> - Deletes a specific customer record, identified by their ID.</li>
-    <li><code>POST /books/{id}/customers{id}/borrow</code> - Borrow a book</li>
+    <li><code>POST /books/{id}/customers/{id}/borrow</code> - Borrow a book</li>
     <li><code>POST /books/{id}/drop</code> - Return the book</li>
 </ul>
